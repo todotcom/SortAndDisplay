@@ -1,4 +1,8 @@
 <?php
+//BEGIN. ArrSortDisplay.php
+//DESCRIPTION: Apply custom sort to array.
+//CREATED BY: Mohammed Firoz Shaikh
+//CREATEION DATE: 01.10.2014
 $arrTest =  array(
     array(
         'Name' => 'Trixie',
@@ -22,10 +26,7 @@ $arrTest =  array(
 
 $arrSorter =  array('Name' ,'Color','Element','Likes');
 
-//BEGIN. 
-//DESCRIPTION: Apply custom sort
-//BY: Mohammed Firoz Shaikh
-//DATE: 01.10.2014
+
 $arrRes = array();
 foreach ($arrTest as $keyTest => $valTest){
 $arrRes[$keyTest] = clsArraySort::customSort($valTest, $arrSorter);
