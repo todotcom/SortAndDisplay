@@ -4,11 +4,13 @@
 // Testing for GIT
 // CREATED BY: Mohammed Firoz Shaikh
 // CREATEION DATE: 01.10.2014
+
 // CHANGE USING AT 14:25 BY MASTER BRANCH
 // SECOND CHANGE USING AT 14:30 BY MASTER BRANCH
+
 // LINES CREATED BY BRANCH 1425-220615
 // SECOND LINE CREATE BY BRANCH 1425-220615
->>>>>>> branch-1630-220615
+
 $arrTest =  array(
     array(
         'Name' => 'Trixie',
